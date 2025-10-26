@@ -1,0 +1,7 @@
+This software uses the following open-source components:
+
+- yt-dlp (Unlicense)
+- CustomTkinter (MIT License)
+- ffmpeg (LGPL License)
+
+For full license text, please refer to each component's repository or documentation.

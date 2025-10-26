@@ -8,7 +8,8 @@ GUI-Based Youtube Downloader
 - [Currently] Support Windows 7 Or Above
 
 ## ❌Current Limitation
-because youtube requires SARB for downloading, you may experience some issues. I can't fix it until yt-dlp fixes it.
+- Because Youtube force SARB for downloading, you may experience some issues. I can't fix it until yt-dlp fixes it.
+- No resolution or fps option, im trying to implement it
 
 ## Installation
 ```bash

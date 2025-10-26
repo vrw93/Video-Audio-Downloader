@@ -17,6 +17,6 @@ pip install -r requirements.txt
 python main.py
 ```
 ## Library Used
-- [yt-dlp]([url](https://github.com/yt-dlp/yt-dlp)) — Unlicense
-- [Custom Tkinter]([url](https://github.com/TomSchimansky/CustomTkinter)) — MIT Lincense
-- [ffmpeg]([url](https://ffmpeg.org/)) — LGPL License
+- [yt-dlp](https://github.com/yt-dlp/yt-dlp) — Unlicense
+- [Custom Tkinter](https://github.com/TomSchimansky/CustomTkinter) — MIT Lincense
+- [ffmpeg](https://ffmpeg.org/) — LGPL License

@@ -21,7 +21,7 @@ python main.py
 - [yt-dlp](https://github.com/yt-dlp/yt-dlp) — Unlicense
 - [Custom Tkinter](https://github.com/TomSchimansky/CustomTkinter) — MIT Lincense
 - [ffmpeg](https://ffmpeg.org/) — LGPL License
-For full license details, see [NOTICE.txt](NOTICE.txt).
+- For full license details, see [NOTICE.txt](NOTICE.txt).
 
 ## Note📃
 - This only my testing + learning project

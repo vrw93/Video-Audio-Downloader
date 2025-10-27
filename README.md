@@ -25,7 +25,8 @@ cd Yt-Dlp-GUI
 pip install -r requirements.txt
 python main.py
 ```
-Make sure to add ffmpeg to modul/ffmpeg folder before run the code
+Make sure to add ffmpeg to modul/ffmpeg folder before run the code,
+For some device you may change `python` to `python3` or `py`
 - If you want the executable file download the release one
 ## Library Used 📚
 - [yt-dlp](https://github.com/yt-dlp/yt-dlp) — Unlicense

@@ -163,7 +163,7 @@ class mainGUI(ctk.CTk):
                             text=f"{d.get('_percent_str', '0%')} @ {d.get('_speed_str', '0 KiB/s')} (Downloading)"
                         ))
                     elif d['status'] == 'postprocessing':
-                        # postprocessing bisa dianggap 100% untuk download, tapi kita bisa beri pesan
+                        # download selesai tempilkan postprocessing
                         self.after(0, lambda: self.downloadLabel.configure(
                             text="Converting with ffmpeg..."
                         ))
@@ -220,4 +220,5 @@ def startup():
     splash.mainloop()
 
 if __name__ == "__main__":
+
     startup()

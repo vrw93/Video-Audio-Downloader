@@ -88,7 +88,7 @@ class splashScreen(ctk.CTk):
             self.label.configure(text="Memeriksa Pembaruan...")
             result = subprocess.run(["yt-dlp", "-U"], capture_output=True, text=True)
             if "yt-dlp is up to date" in result.stdout:
-                msg = "Yt-Dlp Sudah Versi Terbaru"
+                msg = "Yt-Dlp Sudah ada di Versi Terbaru"
             else:
                 msg = "yt-dlp Di Perbarui"
             self.label.configure(text=msg)

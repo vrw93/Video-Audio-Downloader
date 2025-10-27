@@ -1,6 +1,10 @@
-# Yt-Dlp-GUI
+<div align="center">
+
+# Video & Audio downloader
 GUI-Based Youtube Downloader
 <img width="802" height="632" alt="image" src="https://github.com/user-attachments/assets/33eade1e-35f2-4a4a-8ff9-50fbba6c724d" />
+
+</div>
 ## ✅ Feature
 - GUI-Based
 - Easy To Use

@@ -6,7 +6,7 @@ from modul.downloader import YTDownloader
 
 @pytest.fixture
 def downloader(tmp_path):
-    d = Downloader()
+    d = YTDownloader()
     d._progress_hook = MagicMock()
     d.temp_dir = tmp_path
     return d

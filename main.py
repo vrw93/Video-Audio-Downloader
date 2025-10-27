@@ -115,7 +115,7 @@ class mainGUI(ctk.CTk):
         super().__init__()
 
         # Setup
-        self.title("Youtube Downloader")
+        self.title("Video Downloader")
         self.geometry(center_window(self, 800, 600))
         self.minsize(width=700, height=540)
         self.grid_columnconfigure((0), weight=1)
@@ -125,7 +125,7 @@ class mainGUI(ctk.CTk):
         labelFont = ctk.CTkFont(family="Arial", size=18)
 
         # Label title
-        titlelab = ctk.CTkLabel(self, font=("Arial", 28), text="YT Downloader\nBy VrwDev Powered Yt-Dlp")
+        titlelab = ctk.CTkLabel(self, font=("Arial", 28), text="Video Downloader\nBy VrwDev Powered Yt-Dlp")
         titlelab.grid(row=0, column=0, pady=20, padx=20)
 
         # URL input

@@ -23,7 +23,7 @@
 - No resolution or fps option, im trying to implement it
 
 ## Installation
-- If you want the copy of source code
+### If you want the copy of source code
 ```bash
 git clone https://github.com/vrw93/Yt-Dlp-GUI.git
 cd Yt-Dlp-GUI
@@ -32,7 +32,8 @@ python main.py
 ```
 Make sure to add ffmpeg to modul/ffmpeg folder before run the code,
 For some device you may change `python` to `python3` or `py`
-- If you want the executable file download the release one
+### If you want the executable file 
+download the release one
 ## Library Used 📚
 - [yt-dlp](https://github.com/yt-dlp/yt-dlp) — Unlicense
 - [Custom Tkinter](https://github.com/TomSchimansky/CustomTkinter) — MIT Lincense
@@ -43,3 +44,7 @@ For some device you may change `python` to `python3` or `py`
 - This only my testing + learning project
 - You can request a feature but im not promise to implement it
 - There maybe many bug that i dont know earlier you can report it
+
+## 🧾 License
+This project is released under the MIT License.  
+See [LICENSE](LICENSE) and [NOTICE.txt](NOTICE.txt) for more details.

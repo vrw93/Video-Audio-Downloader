@@ -1,7 +1,12 @@
 <div align="center">
 
 # Video & Audio downloader
-GUI-Based Online Video & Audio Downloader
+
+**Lightweight GUI-Based Online Video & Audio Downloader**<br>
+![Python](https://img.shields.io/badge/python-3.10+-blue.svg)
+![Platform](https://img.shields.io/badge/platform-Windows-lightgrey.svg)
+![License](https://img.shields.io/badge/license-MIT-green.svg)
+
 <img width="802" height="632" alt="image" src="https://github.com/user-attachments/assets/33eade1e-35f2-4a4a-8ff9-50fbba6c724d" />
 
 </div>

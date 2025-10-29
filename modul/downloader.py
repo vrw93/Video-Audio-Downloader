@@ -1,5 +1,6 @@
 import yt_dlp as yt
 from pathlib import Path
+import sys
 
 class YTDownloader:
     def __init__(self, progress_callback=None):
@@ -30,7 +31,7 @@ class YTDownloader:
             ydl.download([url])
     
     def downloadVideo(self, url, filePath, format):
-        ffmpeg_path = Path(__file__).resolve().parent / "ffmpeg"
+        ffmpeg_path = getattr(sys, '_MEIPASS',Path(__file__).resolve().parent / "ffmpeg")
         ydl_opts = {
             'format' : 'bestvideo+bestaudio/best',
             'ignoreerrors': True,

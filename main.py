@@ -119,7 +119,9 @@ class mainGUI(ctk.CTk):
         self.geometry(center_window(self, 800, 600))
         self.minsize(width=700, height=540)
         self.grid_columnconfigure((0), weight=1)
-        self.iconbitmap("assets/favicon.ico")
+        base_path = getattr(sys, '_MEIPASS', Path(__file__).resolve().parent)
+        icon_path = Path(base_path) / "assets" / "favicon.ico"
+        self.iconbitmap(icon_path)
 
         # Font
         labelFont = ctk.CTkFont(family="Arial", size=18)

@@ -25,7 +25,7 @@
 ## Installation
 ### If you want the copy of source code
 ```bash
-git clone https://github.com/vrw93/Yt-Dlp-GUI.git
+git clone https://github.com/vrw93/Video-Audio-Downloader.git
 cd Yt-Dlp-GUI
 pip install -r requirements.txt
 python main.py

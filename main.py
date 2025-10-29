@@ -13,6 +13,15 @@ def center_window(self, width, height):
         y = (sh // 2) - (height // 2)
         return f"{width}x{height}+{x}+{y}"
 
+def iconPathDir():
+    #get icon path
+        if getattr(sys, 'frozen', False):
+            base_path = Path(sys._MEIPASS) if hasattr(sys, '_MEIPASS') else Path(sys.executable).parent
+        else:
+            base_path = Path(__file__).resolve().parent
+        icon_path = Path(base_path) / "assets" / "favicon.ico"
+        return icon_path
+
 class fileType(ctk.CTkFrame):
     def __init__(self, frame):
         super().__init__(frame)
@@ -68,7 +77,7 @@ class splashScreen(ctk.CTk):
         self.geometry(center_window(self, 400, 200))
         self.minsize(width=400, height=200)
         self.resizable(False, False)
-        self.iconbitmap("assets/favicon.ico")
+        self.iconbitmap(iconPathDir)
 
         self.grid_rowconfigure(0, weight=1)
         self.grid_columnconfigure(0, weight=1)
@@ -119,14 +128,7 @@ class mainGUI(ctk.CTk):
         self.geometry(center_window(self, 800, 600))
         self.minsize(width=700, height=540)
         self.grid_columnconfigure((0), weight=1)
-        
-        #get icon path
-        if getattr(sys, 'frozen', False):
-            base_path = Path(sys._MEIPASS) if hasattr(sys, '_MEIPASS') else Path(sys.executable).parent
-        else:
-            base_path = Path(__file__).resolve().parent
-        icon_path = Path(base_path) / "assets" / "favicon.ico"
-        self.iconbitmap(icon_path)
+        self.iconbitmap(iconPathDir)
 
         # Font
         labelFont = ctk.CTkFont(family="Arial", size=18)

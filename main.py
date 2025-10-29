@@ -77,7 +77,7 @@ class splashScreen(ctk.CTk):
         self.geometry(center_window(self, 400, 200))
         self.minsize(width=400, height=200)
         self.resizable(False, False)
-        self.iconbitmap(iconPathDir)
+        self.iconbitmap(iconPathDir())
 
         self.grid_rowconfigure(0, weight=1)
         self.grid_columnconfigure(0, weight=1)
@@ -128,7 +128,7 @@ class mainGUI(ctk.CTk):
         self.geometry(center_window(self, 800, 600))
         self.minsize(width=700, height=540)
         self.grid_columnconfigure((0), weight=1)
-        self.iconbitmap(iconPathDir)
+        self.iconbitmap(iconPathDir())
 
         # Font
         labelFont = ctk.CTkFont(family="Arial", size=18)

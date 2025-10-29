@@ -119,7 +119,12 @@ class mainGUI(ctk.CTk):
         self.geometry(center_window(self, 800, 600))
         self.minsize(width=700, height=540)
         self.grid_columnconfigure((0), weight=1)
-        base_path = getattr(sys, '_MEIPASS', Path(__file__).resolve().parent)
+        
+        #get icon path
+        if getattr(sys, 'frozen', False):
+            base_path = Path(sys._MEIPASS) if hasattr(sys, '_MEIPASS') else Path(sys.executable).parent
+        else:
+            base_path = Path(__file__).resolve().parent
         icon_path = Path(base_path) / "assets" / "favicon.ico"
         self.iconbitmap(icon_path)
 

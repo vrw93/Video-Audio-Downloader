@@ -31,7 +31,11 @@ class YTDownloader:
             ydl.download([url])
     
     def downloadVideo(self, url, filePath, format):
-        ffmpeg_path = getattr(sys, '_MEIPASS',Path(__file__).resolve().parent / "ffmpeg")
+        if getattr(sys, 'frozen', False):
+            base_path = Path(sys._MEIPASS) if hasattr(sys, '_MEIPASS') else Path(sys.executable).parent
+        else:
+            base_path = Path(__file__).resolve().parent
+        ffmpeg_path = Path(base_path) / "modul" / "ffmpeg"
         ydl_opts = {
             'format' : 'bestvideo+bestaudio/best',
             'ignoreerrors': True,

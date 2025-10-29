@@ -160,7 +160,7 @@ class mainGUI(ctk.CTk):
         self.progress_bar.set(0)
 
         def download(formatd):
-            try:
+            #try:
                 downloadPath = Path(self.file_Path_Frame.path_entry.get())
                 downloadPath.mkdir(parents=True, exist_ok=True)
                 
@@ -196,9 +196,11 @@ class mainGUI(ctk.CTk):
                         Path(self.file_Path_Frame.path_entry.get()),
                         formatd
                     )
+                    """""
             except Exception as e:
                 self.downloadLabel.configure(f"Error : {str(e)}")
             finally:
+            """""
                 self.downloadBtn.grid()
                 self.typeFrame.formatEntry.insert(0, "")
                 self.after(1200, lambda: self.downloadLabel.configure(text="No Active Download"))

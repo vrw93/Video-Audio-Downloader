@@ -12,11 +12,13 @@
 </div>
 
 ## ✅ Feature
-- GUI-Based
-- Easy To Use
-- Support Many Kind Of Format(e.g mp4,mp3,m4a,ect)
+- Simple and easy to use interface
+- Download videos from multiple social media platforms
+- GUI-based downloader using CustomTkinter
+- Automatic format selection
+- Downloads the best available audio and video quality
+- Supports multiple formats: mp4, mp3, webm, weba, m4a, etc.
 - [Currently] Support Windows 7 Or Above
-- Support almost all social media(including youtube, instagram, tiktok, ect)
 
 ## ❌Current Limitation
 - Because Youtube force SARB for downloading, you may experience some issues when downloading youtube video. I can't fix it until yt-dlp fixes it.

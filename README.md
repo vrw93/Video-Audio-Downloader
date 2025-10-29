@@ -11,7 +11,7 @@
 
 </div>
 
-## ✅ Feature
+## ✅ Features
 - Simple and easy to use interface
 - Download videos from multiple social media platforms
 - GUI-based downloader using CustomTkinter
@@ -32,7 +32,7 @@ cd Yt-Dlp-GUI
 pip install -r requirements.txt
 python main.py
 ```
-Make sure to add ffmpeg to modul/ffmpeg folder before run the code,
+Make sure to add ffmpeg binary to `modul/ffmpeg` folder before run the code,
 For some device you may change `python` to `python3` or `py`
 ### If you want the executable file 
 download the release one
@@ -43,9 +43,9 @@ download the release one
 - For full license details, see [NOTICE.txt](NOTICE.txt).
 
 ## Note📃
-- This only my testing + learning project
-- You can request a feature but im not promise to implement it
-- There maybe many bug that i dont know earlier you can report it
+- This only my testing + learning project.
+- You can request a feature, but I’m not promising to implement it.
+- There maybe many bug that i dont know earlier you can report it.
 
 ## 🧾 License
 This project is released under the MIT License.  

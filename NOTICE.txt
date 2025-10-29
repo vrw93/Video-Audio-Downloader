@@ -1,7 +1,18 @@
-This software uses the following open-source components:
+NOTICE
 
-- yt-dlp (Unlicense)
-- CustomTkinter (MIT License)
-- ffmpeg (LGPL License)
+This software includes and uses the following open-source components:
 
-For full license text, please refer to each component's repository or documentation.
+1. yt-dlp — Unlicense  
+   Repository: https://github.com/yt-dlp/yt-dlp
+
+2. CustomTkinter — MIT License  
+   Repository: https://github.com/TomSchimansky/CustomTkinter
+
+3. FFmpeg — LGPL License  
+   Website: https://ffmpeg.org/
+
+Each component is licensed by its respective copyright holders.
+You may obtain the full license texts from the corresponding repositories or documentation.
+
+This project itself is licensed under the MIT License.
+See the LICENSE file for more details.

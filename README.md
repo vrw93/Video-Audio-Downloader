@@ -21,7 +21,7 @@
 - [Currently] Support Windows 7 Or Above
 
 ## ❌Current Limitation
-- Because Youtube force SARB for downloading, you may experience some issues when downloading youtube video. I can't fix it until yt-dlp fixes it.
+- Because Youtube SARB you may experience some issues when downloading youtube video.can't fix  until yt-dlp fixes it.
 - No resolution or fps option, im trying to implement it
 
 ## Installation

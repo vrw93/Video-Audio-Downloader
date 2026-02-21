@@ -2,6 +2,8 @@
 
 # Video & Audio downloader
 
+# !!!DESPRECATED!!!
+
 **Lightweight GUI-Based Online Video & Audio Downloader**<br>
 ![Python](https://img.shields.io/badge/python-3.10+-blue.svg)
 ![Platform](https://img.shields.io/badge/platform-Windows-lightgrey.svg)
